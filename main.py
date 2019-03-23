@@ -67,8 +67,12 @@ class Die:
 					wins += 1
 				elif face == vs:
 					ties += 1
-		# See the read-me for an explination
-		return wins/(36-ties)
+		try:
+			# See the read-me for an explination
+			return wins/(36-ties)
+		# When opponent has all the same faces, it's possible to have 36 ties
+		except ZeroDivisionError:
+			return 0
 
 # For debugging purposes
 ## f = open("output.txt", "a+")
