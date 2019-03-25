@@ -1,4 +1,8 @@
 # DieGame
+
+Runable version: https://repl.it/@allek6496/LovableGiddyPasswords
+Line 82 to change the opponent die
+
 To find the best solution to a math problem in my math class, the problem is as follows:
 
 You enter a competition where you create fair 6 sided dice, with a catch. You can place exactly 18 pips in any configuration on
